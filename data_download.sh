@@ -10,8 +10,8 @@ fi
 if [ ! -d "data/imdb" ];
 then
     mkdir data/imdb
-    wget https://datasets.imdbws.com/name.basics.tsv.gz
-    gunzip -c name.basics.tsv.gz > data/imdb/name.basics.tsv;
+    wget https://datasets.imdbws.com/title.crew.tsv.gz
+    gunzip -c title.crew.tsv.gz > data/imdb/title.crew.tsv;
     wget https://datasets.imdbws.com/title.basics.tsv.gz
     gunzip -c title.basics.tsv.gz > data/imdb/title.basics.tsv;
 else
