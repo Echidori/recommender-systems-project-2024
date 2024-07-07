@@ -1,0 +1,6 @@
+jupyter
+tensorflow
+numpy
+pandas
+scikit-learn
+tensorflow-probability
